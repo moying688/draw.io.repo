@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
+  <diagram name="第 1 页" id="wA0FYhRvxAE9yztZzQ9c">
+    <mxGraphModel dx="515" dy="687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="334.0000000000001" y="221.80952380952374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-1" value="用户发起下单&lt;br&gt;createOrder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="91" width="173" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="334" y="525.1111111111111" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-10" value="未创建过订单、且符合拼团营销商品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sbn_Uj7WRKU9-tmHF2Xa-7">
+          <mxGeometry x="-0.1226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-2" target="Sbn_Uj7WRKU9-tmHF2Xa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-2" value="检测当前用户下单情况" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="256" y="222" width="156" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-4" value="创建过该商品订单&lt;br&gt;但因为外部接口超时&lt;br&gt;未出创建支付订单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="57" y="411" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-5" target="Sbn_Uj7WRKU9-tmHF2Xa-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-5" value="创建过该商品订单且未进行支付" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="506" y="411" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-6" target="Sbn_Uj7WRKU9-tmHF2Xa-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-6" value="未创建订单，且属于营销类型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="278" y="532" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-2" target="Sbn_Uj7WRKU9-tmHF2Xa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-11" value="返回订单号+支付url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="573" y="537" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-13" target="Sbn_Uj7WRKU9-tmHF2Xa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-13" value="进行营销锁单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="63" y="532" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.446;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-4" target="Sbn_Uj7WRKU9-tmHF2Xa-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-15" value="doPrePayOrder&lt;br&gt;调用支付宝接口&lt;br&gt;传入传输获取支付url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="63" y="643" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-17" target="Sbn_Uj7WRKU9-tmHF2Xa-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-17" value="查询商品信息构建订单&lt;br&gt;&lt;font style=&quot;color: rgb(255, 31, 102);&quot;&gt;（此处构建关键信息OrderId）&lt;/font&gt;&lt;br&gt;&lt;div&gt;进行营销锁单&lt;br&gt;调用支付宝接口获取url&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="664" width="139" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-19" target="Sbn_Uj7WRKU9-tmHF2Xa-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-25" value="回调成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sbn_Uj7WRKU9-tmHF2Xa-24">
+          <mxGeometry x="-0.0937" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-19" target="Sbn_Uj7WRKU9-tmHF2Xa-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-29" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;若支付宝未能成功回调&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sbn_Uj7WRKU9-tmHF2Xa-27">
+          <mxGeometry x="0.3097" y="15" relative="1" as="geometry">
+            <mxPoint x="1" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-19" value="通过支付宝url进行支付后，会跳转到指定的页面&lt;br&gt;同时支付宝会回调我们提前定好的回调地址&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="199.5" y="893" width="263.5" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.035;entryY=0.319;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-15" target="Sbn_Uj7WRKU9-tmHF2Xa-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sbn_Uj7WRKU9-tmHF2Xa-11" target="Sbn_Uj7WRKU9-tmHF2Xa-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-23" value="更新订单信息&lt;br&gt;发送营销结算回调（HTTP）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250.38" y="1177" width="161.75" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn_Uj7WRKU9-tmHF2Xa-26" value="通过定时任务检测未支付订单&lt;br&gt;调用支付宝接口&lt;br&gt;通过返回结果判断是否支付成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="24" y="1089" width="189" height="103" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
